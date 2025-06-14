@@ -85,7 +85,7 @@ const CategoryChart = ({ products }) => {
   };
 
   return (
-    <div className="bg-slate-800 rounded-lg p-4 shadow-md h-[400px]">
+    <div className="bg-slate-800 rounded-lg p-4 shadow-md h-[950px]">
       <h3 className="text-lg font-bold mb-2 text-white">📊 Productos por Categoría</h3>
       <Bar data={dataChart} options={options} />
     </div>

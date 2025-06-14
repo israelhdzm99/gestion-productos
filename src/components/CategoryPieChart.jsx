@@ -65,7 +65,7 @@ const CategoryPieChart = ({ products }) => {
 
   return (
     <div className="bg-slate-800 rounded-lg p-4 shadow-md">
-      <h3 className="text-lg font-bold mb-2 text-white">🥧 Distribución por Categoría</h3>
+      <h3 className="text-lg font-bold mb-2 text-white">🏷️ Distribución por Categoría</h3>
       <Pie data={dataChart} options={options} />
     </div>
   );
