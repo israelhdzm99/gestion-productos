@@ -2,6 +2,8 @@ import { collection, onSnapshot, doc, deleteDoc } from "firebase/firestore";
 import { db } from "../firebase";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
+import Swal from 'sweetalert2';
+
 
 const ProductTable = ({ filters }) => {
   const [products, setProducts] = useState([]);
@@ -20,8 +22,26 @@ const ProductTable = ({ filters }) => {
   }, []);
 
   const handleDelete = async (id) => {
-    if (window.confirm("¿Estás seguro de eliminar este producto?")) {
+    const result = await Swal.fire({
+      title: "¿Estás seguro?",
+      text: "Esta acción no se puede deshacer.",
+      icon: "warning",
+      showCancelButton: true,
+      confirmButtonColor: '#d33',
+      cancelButtonColor: '#3085d6',
+      confirmButtonText: "Sí, eliminar",
+      cancelButtonText: "Cancelar"
+    });
+
+    if (result.isConfirmed) {
       await deleteDoc(doc(db, "products", id));
+      Swal.fire({
+      title: '¡Eliminado!',
+      text: 'El producto ha sido eliminado.',
+      icon: 'success',
+      confirmButtonColor: '#3085d6',
+      confirmButtonText: 'Aceptar'
+    });
     }
   };
 
