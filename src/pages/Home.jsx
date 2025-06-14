@@ -55,7 +55,7 @@ const Home = () => {
           </div>
 
           <div
-            onClick={() => navigate("/consultar")} // o tu ruta de estadísticas
+            onClick={() => navigate("/estadisticas")} // o tu ruta de estadísticas
             className="cursor-pointer bg-white bg-opacity-10 hover:bg-opacity-20 transition-all p-6 rounded-lg shadow-lg flex flex-col items-center text-center transform hover:-translate-y-1"
           >
             <FaChartBar className="text-4xl mb-4 text-purple-400" />
