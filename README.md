@@ -1,14 +1,12 @@
 # 📦 Gestor de Productos Digital
 
-Este proyecto es una solución moderna y visual para la gestión de productos, impulsada por un enfoque práctico en la automatización y herramientas basadas en Inteligencia Artificial. Representa una muestra clara de cómo escalar habilidades sólidas de programación combinándolas con tecnologías actuales y el deseo genuino de crecer como desarrollador profesional.
-
+Este proyecto es una solución moderna y visual para la gestión de productos, impulsada por un enfoque práctico en la automatización y herramientas basadas en Inteligencia Artificial. Representa una muestra clara de cómo escalar habilidades sólidas de programación combinándolas con tecnologías actuales y el deseo genuino de aportar soluciones digitales 100% funcionales.
 ---
 
 ## 🚀 Stack Tecnológico
 
 - **Frontend:** React + TailwindCSS
 - **Backend as a Service (BaaS):** Firebase Firestore + Hosting
-- **Autenticación:** Firebase Authentication (opcional)
 - **Gráficas:** Chart.js (Bar & Pie)
 - **Alertas UI:** SweetAlert2 (Swal.fire)
 - **Control de estado:** React Hooks + uso directo de Firestore
@@ -68,7 +66,7 @@ Desde el diseño de componentes hasta la resolución de errores complejos, **Cha
 - 🧠 Refactorización de formularios y estandarización de estilos entre vistas.
 - 💡 Recomendaciones de librerías, optimización de queries y mejora de UX.
 
-> Este proyecto no solo fue desarrollado por mí, sino conmigo. Aprendí a **resolver, documentar y aplicar** mejores prácticas gracias a la IA.
+> Este proyecto aprendí a **resolver, documentar y aplicar** mejores prácticas gracias a la IA.
 
 ---
 
@@ -101,16 +99,20 @@ service cloud.firestore {
 
 ## 💬 Reflexión final
 
-Este proyecto representa más que código: es una muestra del camino que estoy construyendo con base en disciplina, curiosidad y la determinación de crear soluciones útiles. Sé que este es solo un punto de partida.
+Este proyecto no solo es una app funcional de gestión de productos: también es un ejercicio real de cómo la inteligencia artificial puede potenciar el trabajo de quienes creamos herramientas digitales. Es un claro ejemplo de trabajo en equipo donde nosotros como desarrolladores traemos la visión, la disciplina y la ejecución y del lado contrario la precisión, rapidez y una guía estructurada.
 
-🧠🔥 Tengo hambre de seguir aprendiendo, y estoy construyendo algo más grande, línea por línea, consulta por consulta.
+¿Qué demuestra este enfoque?
+
+Aliada real: la IA me ayudó a pulir diseño, alertas, dashboards y flujos sin robar mi estilo propio.
+
+Disciplina + curiosidad: cada iteración—formularios, navegación, estadísticas—estuvo guiada por ganas de aprender y mejorar.
+
+Potencial de crecimiento: esto es solo el comienzo. Integraré más métricas, tests y funcionalidades para hacerlo aún más robusto.
 
 ---
 
 ## 📬 Contacto
 
-¿Ideas, mejoras o te interesa el proyecto?
-
-**Israel Hernández**  
-📧 tuemail@example.com  
-🌐 [Tu LinkedIn o GitHub aquí]
+Ing. Israel Hernández 
+📧 deira.ia.mx@gmail.com
+🌐 israelhdzm99 - Github
